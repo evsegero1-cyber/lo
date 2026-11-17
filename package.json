@@ -1,0 +1,22 @@
+{
+  "name": "life-os",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LIFE OS — персональная офлайн-система здорового образа жизни",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/filesystem": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "@capacitor/share": "^7.0.0",
+    "@capacitor/app": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}

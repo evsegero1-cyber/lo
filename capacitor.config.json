@@ -1,0 +1,13 @@
+{
+  "appId": "ru.evsukov.lifeos",
+  "appName": "LIFE OS",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0b0d12"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#7C6CFF"
+    }
+  }
+}
